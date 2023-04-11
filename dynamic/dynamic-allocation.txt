@@ -1,0 +1,5 @@
+Imagine we have to create a program that will store all the words contained in a file in an array. That file is passed as an argument to our program.
+ There is no way we could know in advance how many words the file will contain. We can not declare a big array like char *words[1024]; and assume that there will never be more than 1024 words in the file.
+ That’s when malloc and friends come to the rescue, and will permit us to allocate dynamically the amount of memory we need.
+
+The malloc function allocates a specific number of bytes in memory and returns a pointer to the allocated memory. This memory will have to read and write permissions.

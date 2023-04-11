@@ -9,7 +9,7 @@ void print_school(void)
 {       
         char str[] = "Holberton";
         
-        str[0] = 's';
+        str[2] = 's';
         printf("%s\n", str);
 }       
 /**
